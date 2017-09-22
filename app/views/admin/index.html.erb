@@ -1,0 +1,11 @@
+<h1>Login Page</h1>
+<%= label_tag :email, 'Email: ' %><br>
+<%= text_field_tag :email %><br>
+
+<%= label_tag :password, 'Password: ' %><br>
+<%= password_field_tag :password_digest %><br><br>
+
+<%= submit_tag 'Login' %><br><br>
+
+<%= link_to 'New User?', new_user_path %>
+

@@ -1,0 +1,14 @@
+<h1>Login User</h1>
+
+<% form_tag :action => :create do %>
+
+<%= label_tag :email, 'Email: ' %><br>
+<%= text_field_tag :email %><br>
+
+<%= label_tag :password, 'Password: ' %><br>
+<%= password_field_tag :password_digest %><br>
+
+<%= submit_tag 'Login' %>
+
+<% end %>
+
